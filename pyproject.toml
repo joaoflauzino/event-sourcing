@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "event-sourcing"
+version = "0.1.0"
+description = "Event Sourcing example"
+authors = ["João Lucas Flauzino Cassiano <joaolucas.apoio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
