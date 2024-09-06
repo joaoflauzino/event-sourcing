@@ -12,7 +12,7 @@ fastapi = {extras = ["standard"], version = "^0.112.0"}
 uvicorn = "^0.30.5"
 sqlalchemy = "^2.0.32"
 psycopg2-binary = "^2.9.9"
-alembic = "^1.13.2"
+boto3 = "^1.35.13"
 
 
 [build-system]

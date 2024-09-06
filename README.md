@@ -35,6 +35,12 @@ poetry install
 docker-compose up -d
 ```
 
+Create a SQS queue
+
+```sh
+aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name topic-bank --region sa-east-1
+```
+
 ## Usage 
 
 ### Running the api
@@ -43,6 +49,14 @@ docker-compose up -d
 cd app/
 fastapi dev main.py
 ```
+
+### Running the pooling
+
+```bash
+cd app/
+python pooling.py
+```
+
 
 ### API Endpoints
 
